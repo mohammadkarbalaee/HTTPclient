@@ -75,7 +75,7 @@ class MyRequest2 {
       int length = out.length;
 
       http.setFixedLengthStreamingMode(length);
-      http.setRequestProperty("Content-Type", "application/json");
+      http.setRequestProperty("Content-Type", "multipart/form-data; boundary=---something");
       http.setRequestProperty("Authorization", "Token TOKEN_KEY");
       http.connect();
       try(OutputStream os = http.getOutputStream()) {
