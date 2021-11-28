@@ -40,7 +40,7 @@ public class HttpClientImplementation {
 //        HttpClient httpclient = new DefaultHttpClient();
 //        HttpPost httpPost = new HttpPost("http://localhost:8080/raw");
 //        httpPost.setHeader("Content-Type","multipart/form-data; boundary=---something");
-//        httpPost.setHeader("Authorization", "Token 7c990ee0c9aa0ddd7307d9bdaa76ac8d682be233");
+//        httpPost.setHeader("Authorization", "");
 //        File pdfFile = new File("C:\\Users\\Muhammad\\Desktop\\projects\\docs\\apiCodes\\alefba\\boute.pdf");
 //        FileBody uploadFilePart = new FileBody(pdfFile);
 //        MultipartEntity reqEntity = new MultipartEntity();
