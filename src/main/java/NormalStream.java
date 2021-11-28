@@ -7,7 +7,7 @@ import java.net.URLConnection;
 import java.io.InputStreamReader;
 import java.io.BufferedReader;
 
-class MyRequest {
+class NormalStream {
 
     public static void main(String[] args){
         try{
@@ -23,7 +23,7 @@ class MyRequest {
 
             http.setFixedLengthStreamingMode(length);
             http.setRequestProperty("Content-Type", "multipart/form-data");
-            http.setRequestProperty("Authorization", "Token 7c990ee0c9aa0ddd7307d9bdaa76ac8d682be233");
+            http.setRequestProperty("Authorization", "");
             http.connect();
             try(OutputStream os = http.getOutputStream()) {
                 os.write(out);

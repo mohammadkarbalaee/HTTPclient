@@ -15,14 +15,14 @@ import org.apache.http.impl.client.HttpClients;
 import java.io.*;
 import java.lang.System;
 
-public class MultiPartFormData {
+public class HttpClientImplementation {
   public static void main(String[] args) throws IOException {
 
     CloseableHttpClient httpClient = HttpClients.createDefault();
     HttpPost uploadURL = new HttpPost("http://localhost:8080/raw");
     uploadURL.setHeader("Content-Disposition","form-data; name=document; filename=boute.pdf");
     uploadURL.setHeader("Content-Type","multipart/form-data; boundary=---something");
-    uploadURL.setHeader("Authorization", "Token 7c990ee0c9aa0ddd7307d9bdaa76ac8d682be233");
+    uploadURL.setHeader("Authorization", "");
     MultipartEntityBuilder multipartEntityBuilder = MultipartEntityBuilder.create();
 
     File pdfFile = new File("C:\\Users\\Muhammad\\Desktop\\projects\\docs\\apiCodes\\alefba\\boute.pdf");

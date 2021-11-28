@@ -55,7 +55,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 
-class MyRequest2 {
+class NormalStream2 {
 
   public static void main(String[] args){
     try{
