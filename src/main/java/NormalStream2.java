@@ -19,7 +19,7 @@
 //    urlConnection.setRequestMethod("POST");
 //    urlConnection.setDoOutput(true);
 //    urlConnection.setRequestProperty("Content-Type", "multipart/form-data");
-//    urlConnection.setRequestProperty("Authorization", "Token 7c990ee0c9aa0ddd7307d9bdaa76ac8d682be233");
+//    urlConnection.setRequestProperty("Authorization", "");
 //
 //    OutputStream outputStreamToRequestBody = urlConnection.getOutputStream();
 //    BufferedWriter httpRequestBodyWriter = new BufferedWriter(new OutputStreamWriter(outputStreamToRequestBody));
